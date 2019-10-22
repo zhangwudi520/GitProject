@@ -10,7 +10,7 @@ def fibonacci():
     斐波那契数列
     :return:
     """
-    num = int(input("Input a int num:"))
+    num = int(input("Input a int num( > 1):"))
     fi = [1, 1]
     for i in range(2, num):
         fi.append(fi[-2] + fi[-1])
